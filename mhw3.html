@@ -1,0 +1,276 @@
+<!--Josè Luis Aquila - 1000001097-->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mhw3</title>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="provided-style.css"/>
+    <link rel="stylesheet" href="mhw3style.css"/>
+    <script src="constants.js" defer="true"></script>
+    <script src="mhw3.js" defer="true"></script>
+    <script src="mhw3script.js" defer="true"></script>
+  </head>
+
+  <body>
+
+      <header>
+          <h1>Mondo del calcio</h1>
+          <div>
+            <span>Quiz</span>
+            <span>Campionati</span>
+            <span>Ascolta</span>
+            <span>Home</span>
+          </div>
+      </header>
+      
+      <article id="home">
+        <div>
+          <h1>
+            Tutto sul mondo del calcio
+          </h1>
+          <h3>
+            Scegli un'opzione in alto e divertiti con noi!!
+          </h3>
+        </div>
+
+      </article>
+
+
+      <article id="containerCampionato" class="hidden">
+                
+
+        <form id="formCampionati">
+          <div>
+            Stagione
+            <select name = 'stagione' id='stagione'>
+              <option value="2021">2021-22</option>
+              <option value="2020">2020-21</option>
+              <option value="2019">2019-20</option>
+              <option value="2018">2018-19</option>
+              <option value="2017">2017-18</option>
+              <option value="2016">2016-17</option>
+              <option value="2015">2015-16</option>
+              <option value="2014">2014-15</option>
+            </select>
+          </div>
+
+          Seleziona la nazione di cui vuoi visualizzare il campionato :	
+			    <select name = 'tipo' id='tipo'>
+            <option value="ita.1">Italia</option>
+            <option value="eng.1">Inghilterra</option>
+            <option value="ger.1">Germania</option>
+            <option value="esp.1">Spagna</option>
+            <option value="fra.1">Francia</option>
+			    </select>
+
+          <input type="submit" value="seleziona">
+			
+			
+        </form>
+
+        <article id="viewCampionati">
+
+        </article>
+
+      </article>
+
+
+
+
+      <article id="spotify" class="hidden">
+                
+
+        <form id="formSpotify">
+          
+          Scegli il nome di un artista o il titolo di una canzone : 
+          <input type="text" id="traccia">
+          <input type="submit" value="cerca">
+			
+			
+        </form>
+
+        <article id="viewSpotify">
+
+        </article>
+
+      </article>
+
+
+
+
+  <article id="quiz" class="hidden">
+    <h1>Quiz personalità-calcio, scopri chi sei!!</h1>
+
+    <section class="question-name">
+      <h1>Che squadra ti rappresenta ?</h1>
+    </section>
+
+    <section class="choice-grid">
+
+      <div data-choice-id="blep" data-question-id="one">
+        <img src="https://net-storage.tcccdn.com/storage/tuttojuve.com/img_notizie/thumb3/9b/9b22a4b94d2470c036a9196f4ef9b636-03269-d41d8cd98f00b204e9800998ecf8427e.jpeg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="happy" data-question-id="one">
+        <img src="https://aux2.iconspalace.com/uploads/real-madrid-logo-icon-256.png"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="sleeping" data-question-id="one">
+        <img src="https://logoeps.com/wp-content/uploads/2011/05/barcelona-logo-vector.png"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+
+      <div data-choice-id="dopey" data-question-id="one">
+        <img src="https://static.nexilia.it/alfredopedulla/2021/03/Inter-300x300.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+      
+
+      <div data-choice-id="burger" data-question-id="one">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/51L5vdymtAL.__AC_SX300_SY300_QL70_ML2_.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="cart" data-question-id="one">
+        <img src="https://seeklogo.com/images/F/fc-bayern-munchen-1996-logo-FD8D417E8E-seeklogo.com.png"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="nerd" data-question-id="one">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/61MOlawrAOL.__AC_SX300_SY300_QL70_ML2_.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+      
+
+      <div data-choice-id="shy" data-question-id="one">
+        <img src="https://upload.wikimedia.org/wikinews/en/thumb/7/7d/Manchester_United_F.C._logo.svg/296px-Manchester_United_F.C._logo.svg.png"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+      
+      <div data-choice-id="sleepy" data-question-id="one">
+        <img src="https://seeklogo.com/images/L/liverpool-football-club-logo-0E0DAE7B9C-seeklogo.com.png"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+      
+
+    </section>
+
+    <section class="question-name">
+      <h1>Che giocatore ti rappresenta ?</h1>
+    </section>
+
+    <section class="choice-grid">
+      <div data-choice-id="blep" data-question-id="two">
+        <img src="https://www.chronicle.co.zw/wp-content/uploads/sites/3/2019/02/Lionel-Messi-200x200.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="happy" data-question-id="two">
+        <img src="https://www.swisswatchexpo.com/TheWatchClub/wp-content/uploads/2019/05/cristiano-ronaldo-watch-collection-200x200.png"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="sleeping" data-question-id="two">
+        <img src="https://www.superyachtfan.com/wp-content/uploads/2021/01/neymar-jr-300x300.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="dopey" data-question-id="two">
+        <img src="https://www.chronicle.co.zw/wp-content/uploads/sites/3/2018/10/Mbappe-new-200x200.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="burger" data-question-id="two">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/ISL-HRV_%287%29.jpg/260px-ISL-HRV_%287%29.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="cart" data-question-id="two">
+        <img src="https://cdn.tuttosport.com/images/2022/04/07/120845451-95a25d1d-b750-4c93-9233-8b048241c369.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="nerd" data-question-id="two">
+        <img src="https://cdn.corrieredellosport.it/images/2022/04/06/102235312-1d229b6c-a369-4fe3-84db-7f3902b9f597.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="shy" data-question-id="two">
+        <img src="https://cdn-idoli-a.facciabuco.com/200/federico-chiesa/idolo.jpg?v=0"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="sleepy" data-question-id="two">
+        <img src="https://www.succedeoggi.it/wordpress/wp-content/uploads/2016/03/buffon2-350x382.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+    </section>
+
+    <section class="question-name">
+      <h1>Che allenatore ti rappresenta ?</h1>
+    </section>
+
+    <section class="choice-grid">
+
+      <div data-choice-id="blep" data-question-id="three">
+        <img src="https://www.repstatic.it/content/nazionale/img/2016/03/17/001610335-0e264769-5058-4aa5-9468-6a0ba07d9e9d.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="happy" data-question-id="three">
+        <img src="https://www.gelestatic.it/thimg/FSCOlI2pJ64Uy6lH7aZzghG91gE=/fit-in/735x416/https://www.repstatic.it/content/nazionale/img/2019/01/31/111714485-c9a2cbb5-df91-4541-8525-0e1843657838.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="sleeping" data-question-id="three">
+        <img src="https://www.panorama.it/media-library/less-than-p-greater-than-antonio-conte-less-than-p-greater-than.jpg?id=23481596&width=300&coordinates=508%2C0%2C509%2C0&height=300&quality=80"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="dopey" data-question-id="three">
+        <img src="https://www.repstatic.it/content/nazionale/img/2015/12/20/120956517-32745fb3-b9a1-42fc-8f2c-88040033f532.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="burger" data-question-id="three">
+        <img src="https://static.sky.it/images/skysport/it/calcio/premier-league/2020/05/18/il-massimo-della-premier-marianella-liverpool-klopp/GettyImages-1096874696.jpg.transform/hero-mobile/4b7b52c89f67e6e5eade264fb77a9602e422f82f/img.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="cart" data-question-id="three">
+        <img src="https://www.gelestatic.it/thimg/kAS7kj3eFZuj5S_3lHzHfvqnZOc=/fit-in/735x416/https://www.repstatic.it/content/nazionale/img/2020/02/03/170022318-1d4a91a4-ab67-405b-8d30-c83fa2ebc5fd.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="nerd" data-question-id="three">
+        <img src="https://static.blitzquotidiano.it/wp/wp-content/uploads/2022/01/mancini-ansa-1-300x300.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="shy" data-question-id="three">
+        <img src="https://www.gelestatic.it/thimg/r3PZHMz8TIFFER6rqvQT_mCaV9c=/fit-in/495x330/https://www.repstatic.it/content/nazionale/img/2021/10/22/220459001-c68e4aba-dadf-4494-b448-7cc184382522.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div data-choice-id="sleepy" data-question-id="three">
+        <img src="https://www.repstatic.it/content/nazionale/img/2018/11/14/110019834-9b969cf8-3423-4c18-9bf2-f6563451e22a.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+    </section>
+    
+    <footer id="risultato" class="hidden">
+      <h1></h1>
+      <p></p>
+      <div>Ricomincia quiz</div>
+    </footer>
+
+  </article>
+  
+  </body>
+</html>
