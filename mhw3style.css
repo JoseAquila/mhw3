@@ -1,0 +1,166 @@
+/*css form spotify*/
+
+.divSpotify{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titoloCanzone{
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    border-bottom: 1px solid #262626;
+}
+
+/*css form campionati*/
+
+
+.divCampionati{
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 10px;
+    max-width: 100%;
+    display: flex;
+    flex-direction:column;
+}
+
+.nomeCampionato{
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    border-bottom: 1px solid #262626;
+    text-align: left;
+}
+
+
+
+/*css per la homepage*/
+
+header {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    height: 120px;
+}
+
+header div span{
+    background-color: lightgray;
+    height: 80px;
+    width: 100px;
+    
+}
+
+#home div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h1{
+    font-size: 28px;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+#home h3{
+    font-size: 18px;
+    color:gray;
+}
+
+
+
+/*da qui in poi vi è il css risalente al mhw2*/
+.choice-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    box-sizing: border-box;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 32.5%;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border: 1px #dcdcdc;
+    padding: 10px;
+}
+
+.seleziona{
+    background-color: #cfe3ff;
+}
+
+
+.oscura{
+    opacity: 0.6;
+}
+
+.hidden {
+    display: none;
+}
+
+section div img {
+    display: flex;
+    box-sizing: border-box;
+    flex-shrink: 1;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section div img.checkbox{
+    margin-left: 0;
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.question-name{
+    background-image:url('https://www.crushpixel.com/big-static11/preview4/football-ground-green-cover-header-703846.jpg');
+    background-repeat: no-repeat;
+}
+
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+footer div{
+    height: 50px;
+    background-color: #cecece;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+footer h1{
+    margin-top: 0px;
+}
+footer p{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+
+
+@media(max-width: 700px){
+    article{
+        width: 95%;
+    }
+}
+
+@media(max-width: 500px){
+    section div{
+        width: 49%;
+    }
+}
